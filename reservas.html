@@ -367,7 +367,7 @@
 
   document.addEventListener('DOMContentLoaded', () => {
     // solo si el enlace de menú es visible (rol admin)
-    const link = document.querySelector('.navbar-menu a[href="#reservas"]');
+    const link = document.querySelector('.tab[data-id="reservas"]');
     if (link) {
       // Cargar al entrar por primera vez
       AdminApp.init();
